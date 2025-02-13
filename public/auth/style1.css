@@ -1,0 +1,37 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.photo-item {
+    background-color: #f4e1d2;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* Ukuran khusus untuk foto besar */
+.large-photo img {
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Foto besar */
+}
+
+/* Ukuran untuk foto medium */
+.medium-photo img {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Foto medium */
+}
+
+/* Ukuran untuk foto kecil */
+.small-photo img {
+    width: 100%;
+    height: auto;
+    max-width: 200px; /* Foto kecil */
+}
